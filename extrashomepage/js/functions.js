@@ -90,7 +90,6 @@ function getAdTimes(numAds) {
 var adTimes = getAdTimes(1);
 
 $(document).ready(function() {
-    checkHash();
     if ( !isElementInViewport('intro') && titleFade ) {
         fadeNavBar(false);
     }
